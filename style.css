@@ -1,0 +1,61 @@
+.carouselTag{
+    margin-left: 150px;
+    padding: 10px;
+}
+.carousel-inner {
+    max-width: 150vh;
+    max-height: 150vh !important;/* Sesuaikan dengan tinggi yang Anda inginkan */
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    object-fit: cover; /* Untuk memastikan gambar mengisi seluruh area dengan mempertahankan aspek ratio */
+  }
+
+  .carousel-caption {
+    text-align: left; /* Untuk mengatur teks ke kanan */
+    background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan untuk caption */
+    padding: 50px; /* Spasi dalam caption */
+    position: absolute; /* Untuk mengatur posisi absolut */
+    top: 60%; /* Membuat caption berada di tengah vertikal */
+    left: 0; /* Membuat caption berada di sisi kanan */
+    transform: translateY(-70%); /* Menggeser caption ke tengah vertikal */
+  }
+
+  .menu .headMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media(max-width : 470px) {
+    .carousel-caption{
+        text-align: left; /* Untuk mengatur teks ke kanan */
+        background-color: rgba(0, 0, 0, 0.5); /* Latar belakang semi-transparan untuk caption */
+        padding: 50px; /* Spasi dalam caption */
+        position: absolute; /* Untuk mengatur posisi absolut */
+        top: 50%; /* Membuat caption berada di tengah vertikal */
+        left: 0; /* Membuat caption berada di sisi kanan */
+        transform: translateY(-50%); /* Menggeser caption ke tengah vertikal */
+    }
+    .carousel-caption h5{
+        font-size: 18px;
+        text-align: left;
+        left: 0;
+        padding: 10px;
+        font-weight: 700;
+        position: absolute;
+        top: 40%;
+        transform: translateY(-60%);
+    }
+    .carousel-caption p{
+        font-size: 14px;
+        text-align: left;
+        left: 0;
+        padding: 10px;
+        position: absolute;
+        transform: translateY(-20%);
+    }
+  }

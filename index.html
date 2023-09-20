@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <!-- logo -->
+        <div class="container-fluid">
+            <h1><a href="#" class="navbar-brand ms-5">Foodie</a></h1>
+        <!-- logo -->
+
+        <!-- hamburger btn -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <!-- hamburger btn -->
+
+        <!-- nav menu -->
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Order</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+        <!-- nav menu -->
+    </nav>
+    <!-- nav -->
+
+    <!-- Main idea -->
+    <main class="my-2">
+            <!-- carousel -->
+            <h4 class="carouselTag">Menu Terbaru</h4>
+            <div id="carouselIndicators" class="carousel slide mx-4 my-2" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/big/1.png" class="d-block img-fluid">
+                    <div class="carousel-caption  d-md-block">
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/big/2.png" class="d-block img-fluid" >
+                    <div class="carousel-caption  d-md-block">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img  src="img/big/3.png" class="d-block img-fluid ">
+                    <div class="carousel-caption  d-md-block">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!-- carousel end -->
+
+            <hr class="my-4">
+            <div class="menu m-4">
+                <h4 class="headMenu">Our Menu</h4>
+
+                <!-- card -->
+                <div class="card-list m-3 d-flex justify-content-center gap-3">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-price">$10</p>
+                          <p class="card-text" id="description">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Lets Order</a>
+                        </div>
+                      </div>                    
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-price">$10</p>
+                          <p class="card-text" id="description2">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Lets Order</a>
+                        </div>
+                      </div>                    
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-price">$10</p>
+                          <p class="card-text" id="description3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="#" class="btn btn-primary">Lets Order</a>
+                        </div>
+                      </div>                    
+                </div>
+                <!-- card end -->
+            </div>
+            
+    </main>
+    <!-- Main idea -->
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="card.js"></script>
+</body>
+</html>
